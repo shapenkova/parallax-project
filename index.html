@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="application-name" content="Parallax">
+    <meta name="theme-color" content="#010101">
+    <meta name="description" content="Parallax с помощью HTML, CSS и JavaScript.">
+    <meta name="keywords" content="Parallax, паралакс, анимация, gsap">
+    <meta property="og:title" content="Parallax">
+    <meta property="og:description" content="Parallax с помощью HTML, CSS и JavaScript.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Parallax.ru/">
+
+	<title>Parallax</title>
+	<link rel="stylesheet" href="css/main.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
+
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<header class="page-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Welcome to Parallax</div>
+						<div class="layers__title">Fairy Forest</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+			<section class="main-section" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-section__content">
+					<h2 class="main-section__header">To be continued</h2>
+					<p class="main-section__paragraph">I am actively engaged in studying and practicing animation, striving to improve my skills every day. My goal is to create high-quality and visually appealing projects using modern tools and techniques. I am open to new challenges and ready to apply my knowledge in real-world projects.</p>
+				</div>
+				<div class="main-section__copy">&copy; Anastasia Shapenkova</div>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
